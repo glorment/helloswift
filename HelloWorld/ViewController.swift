@@ -10,8 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lblOutput: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        lblOutput.text = "Bonjour!"
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
