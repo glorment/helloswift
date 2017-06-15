@@ -12,7 +12,7 @@
 		8B6B4EAA1EF13B630061E174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6B4EA81EF13B630061E174 /* Main.storyboard */; };
 		8B6B4EAC1EF13B630061E174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B6B4EAB1EF13B630061E174 /* Assets.xcassets */; };
 		8B6B4EAF1EF13B630061E174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6B4EAD1EF13B630061E174 /* LaunchScreen.storyboard */; };
-		8BDE25BC1EF2D07F00679B2E /* sean-afnan-217427.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE25BB1EF2D07F00679B2E /* sean-afnan-217427.jpg */; };
+		8BDE25C11EF2D59400679B2E /* sean-afnan-217427.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE25C01EF2D59400679B2E /* sean-afnan-217427.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		8B6B4EAB1EF13B630061E174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B6B4EAE1EF13B630061E174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B6B4EB01EF13B630061E174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BDE25BB1EF2D07F00679B2E /* sean-afnan-217427.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sean-afnan-217427.jpg"; path = "../../../Downloads/sean-afnan-217427.jpg"; sourceTree = "<group>"; };
+		8BDE25C01EF2D59400679B2E /* sean-afnan-217427.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sean-afnan-217427.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,20 +59,21 @@
 				8B6B4EA41EF13B630061E174 /* AppDelegate.swift */,
 				8B6B4EA61EF13B630061E174 /* ViewController.swift */,
 				8B6B4EA81EF13B630061E174 /* Main.storyboard */,
-				8BDE25BD1EF2D0A500679B2E /* Backgrounds */,
 				8B6B4EAB1EF13B630061E174 /* Assets.xcassets */,
 				8B6B4EAD1EF13B630061E174 /* LaunchScreen.storyboard */,
 				8B6B4EB01EF13B630061E174 /* Info.plist */,
+				8BDE25C21EF2D5AB00679B2E /* Backgrounds */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
 		};
-		8BDE25BD1EF2D0A500679B2E /* Backgrounds */ = {
+		8BDE25C21EF2D5AB00679B2E /* Backgrounds */ = {
 			isa = PBXGroup;
 			children = (
-				8BDE25BB1EF2D07F00679B2E /* sean-afnan-217427.jpg */,
+				8BDE25C01EF2D59400679B2E /* sean-afnan-217427.jpg */,
 			);
 			name = Backgrounds;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BDE25BC1EF2D07F00679B2E /* sean-afnan-217427.jpg in Resources */,
+				8BDE25C11EF2D59400679B2E /* sean-afnan-217427.jpg in Resources */,
 				8B6B4EAF1EF13B630061E174 /* LaunchScreen.storyboard in Resources */,
 				8B6B4EAC1EF13B630061E174 /* Assets.xcassets in Resources */,
 				8B6B4EAA1EF13B630061E174 /* Main.storyboard in Resources */,
