@@ -13,6 +13,7 @@
 		8B6B4EAC1EF13B630061E174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B6B4EAB1EF13B630061E174 /* Assets.xcassets */; };
 		8B6B4EAF1EF13B630061E174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6B4EAD1EF13B630061E174 /* LaunchScreen.storyboard */; };
 		8BDE25C11EF2D59400679B2E /* sean-afnan-217427.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE25C01EF2D59400679B2E /* sean-afnan-217427.jpg */; };
+		8BDE25C41EF3ABA000679B2E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE25C31EF3ABA000679B2E /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8B6B4EAE1EF13B630061E174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B6B4EB01EF13B630061E174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BDE25C01EF2D59400679B2E /* sean-afnan-217427.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sean-afnan-217427.jpg"; sourceTree = "<group>"; };
+		8BDE25C31EF3ABA000679B2E /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				8B6B4EA41EF13B630061E174 /* AppDelegate.swift */,
 				8B6B4EA61EF13B630061E174 /* ViewController.swift */,
+				8BDE25C31EF3ABA000679B2E /* SecondViewController.swift */,
 				8B6B4EA81EF13B630061E174 /* Main.storyboard */,
 				8B6B4EAB1EF13B630061E174 /* Assets.xcassets */,
 				8B6B4EAD1EF13B630061E174 /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BDE25C41EF3ABA000679B2E /* SecondViewController.swift in Sources */,
 				8B6B4EA71EF13B630061E174 /* ViewController.swift in Sources */,
 				8B6B4EA51EF13B630061E174 /* AppDelegate.swift in Sources */,
 			);
